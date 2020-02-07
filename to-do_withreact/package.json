@@ -2,6 +2,7 @@
   "name": "to-do_withreact",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rev1311.github.io/to-do_withReact/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -14,6 +15,8 @@
     "uuid": "^3.4.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
